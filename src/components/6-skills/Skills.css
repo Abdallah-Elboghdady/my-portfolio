@@ -1,0 +1,132 @@
+.skills h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--title);
+}
+
+/* .skills .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+
+}
+
+.skills .skill {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--blue);
+    width: 120px;
+    padding: 10px 0;
+    border-radius: 10px;
+    /* animation: pulse 1.8s infinite; */
+
+
+.skills .skill img {
+    width: 50px;
+}
+
+/* .skills .skill span {
+    color: var(--title);
+} */
+
+/* @keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.4;
+    }
+
+    50% {
+        transform: scale(1.2);
+        /* الحجم الأكبر */
+/* opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.4;
+    }
+}   */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.skill-card {
+    position: relative;
+    padding: 20px 60px;
+    border-radius: 50px;
+    background: var(--secondary);
+    color: var(--title);
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* الطبقة اللي فيها النور */
+.skill-card::before {
+    content: "";
+    position: absolute;
+    inset: -3px;
+    border-radius: 50px;
+    background: conic-gradient(#a855f7,
+            #ec4899,
+            #3b82f6,
+            #a855f7);
+    animation: rotate 4s linear infinite;
+    z-index: 0;
+}
+
+/* الطبقة الداخلية */
+.skill-card::after {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: var(--animation);
+    border-radius: 50px;
+    z-index: 1;
+}
+
+/* النص */
+.skill-card span,
+.skill-card img {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+/* الحركة */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* hover effect */
+.skill-card:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+@media(max-width: 500px) {
+    .skill-card {
+        padding: 20px 40px;
+    }
+}
