@@ -27,7 +27,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 2 }}
           className="title">
-          I’m Abdallah Elboghdady, Frontend Devrloper
+          I’m Abdallah Elboghdady, Frontend Developer
         </motion.h1>
 
         <p className="sub-title">
