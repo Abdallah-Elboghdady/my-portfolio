@@ -15,6 +15,10 @@ function Skills() {
       name: "Javascript",
     },
     {
+      img: "./images/ts1.svg",
+      name: "Typescript",
+    },
+    {
       img: "./images/react.png",
       name: "React",
     },
