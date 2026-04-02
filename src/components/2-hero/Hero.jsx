@@ -44,7 +44,7 @@ const Hero = () => {
             className="icon icon-github"></a>
 
           <a
-            href=" www.linkedin.com/in/abdallah-el-boghdady-a77bbb3bb"
+            href="https://www.linkedin.com/in/abdallah-el-boghdady-a77bbb3bb/"
             target="_blanck"
             className="icon icon-linkedin"></a>
         </div>
