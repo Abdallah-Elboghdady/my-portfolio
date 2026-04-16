@@ -30,5 +30,13 @@ export const myProjects = [
     git: "https://github.com/Abdallah-Elboghdady/the-wild-oasis-dashboard",
     demo: "https://the-wild-oasis-dashboard-pi.vercel.app/",
     description: "Developed a fully functional admin dashboard for a cabin booking platform, providing complete control over cabins, reservations, and user management. Implemented CRUD operations, authentication system, and interactive data visualization using charts to track bookings and performance. The dashboard features a responsive design with dark and light mode support, built using React , React Query , Supabase and Styled Components with a strong focus on usability, scalability, and performance."
+  },
+  {
+    projectTitle: "Watch e-commerce website",
+    tec: ["React", "React Query", "Redux", "TailwindCSS", "Vite", "Supabase"],
+    imgPath: "./images/watch.png",
+    git: "https://github.com/Abdallah-Elboghdady/watch-store",
+    demo: "https://watch-store-rho-three.vercel.app/",
+    description: "Designed and developed a sleek watch e-commerce experience using React and Tailwind CSS, focusing on performance, responsiveness, and modern UI/UX. Implemented interactive features like dynamic products and cart system to enhance user engagement."
   }
 ];
